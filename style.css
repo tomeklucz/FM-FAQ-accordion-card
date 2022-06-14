@@ -33,7 +33,7 @@ body {
   color: var(--text-color-dark-blue);
 }
 
-main {
+.container {
   background-color: white;
   width: 90vw;
   margin: 15rem auto 0;
@@ -118,7 +118,8 @@ h1 {
 }
 
 .accordion button[aria-expanded="true"] .icon {
-  transform: scaleY(-1);
+  transform: rotate(180deg);
+  transition: transform 500ms;
 }
 
 .content {
@@ -148,25 +149,29 @@ h1 {
     justify-content: center;
     align-items: center;
   }
-  main {
-    width: 70vw;
-    height: 30rem;
+
+  h1 {
+    text-align: left;
+  }
+
+  .container {
+    width: 60rem;
+    height: 32rem;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     background-image: url(images/bg-pattern-desktop.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: left -35.5rem bottom -10rem;
+    background-position: left -37rem bottom -10rem;
   }
 
   .img-desktop-container {
+    padding-right: 15rem;
     display: flex;
     align-items: center;
     overflow: hidden;
-    height: 100%;
   }
 
   .img-desktop {
@@ -176,21 +181,19 @@ h1 {
   }
 
   .img-desktop-box {
-    display: block;
+    display: inline;
     position: absolute;
-    top: 54%;
-    left: 15vw;
-    transform: translateX(-50%) translateY(-50%);
+    left: -6.5rem;
+    top: 11.5rem;
     z-index: 1;
   }
 
-  .img-mobile {
+  .img-mobile,
+  .bg-mobile {
     display: none;
   }
 
   .accordion {
-    width: 50%;
     padding: 4rem 5rem 4rem 0;
-    flex: 1;
   }
 }
