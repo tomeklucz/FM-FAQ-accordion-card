@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive rating component
+# Frontend Mentor - FAQ accordion card
 
 This is a solution to the [FAQ accordion card on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam).
 
