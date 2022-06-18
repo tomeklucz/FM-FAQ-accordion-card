@@ -16,7 +16,7 @@ This is a solution to the [FAQ accordion card on Frontend Mentor](https://www.fr
 ### Screenshot
 
 ![](./screenshots/Screenshot-1-desktop.PNG)
-![](./screenshots/Screenshot-2-mobile.jpg)
+![](./screenshots/Screenshot-2-mobile.jpg){:width="400px"}
 
 ### Links
 
