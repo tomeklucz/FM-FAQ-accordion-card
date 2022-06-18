@@ -5,7 +5,7 @@ This is a solution to the [FAQ accordion card on Frontend Mentor](https://www.fr
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -13,11 +13,12 @@ This is a solution to the [FAQ accordion card on Frontend Mentor](https://www.fr
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
-![](./screenshots/Screenshot-1-desktop.PNG)
-![](./screenshots/Screenshot-2-mobile.jpg){:width="400px"}
-<img src="/screenshots/Screenshot-2-mobile.jpg" alt="" width="400px"/>
+<p align="center" width="100%"> 
+<img src="/screenshots/Screenshot-1-mobile.jpg" alt="" width="400px"/>
+<img src="/screenshots/Screenshot-2-desktop.PNG" alt=""/>
+</p>
 
 ### Links
 
